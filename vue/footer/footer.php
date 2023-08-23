@@ -56,7 +56,7 @@
        
         <div class="footer-container">
             <div class="footer-logo">
-            <img src="lesieur.png" alt="Logo">
+            <img src="lesieur.svg" alt="Logo">
             </div>
             <div class="footer-contact">
             <h3>Contactez-nous :</h3>
