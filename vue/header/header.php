@@ -14,11 +14,15 @@
             height: 100px;
             opacity: 1;
         }
+        .slash{
+            color: white;
+            font-size: 20px;
+        }
         nav a{
             color: white;
             font-size: 20px;
             text-decoration: none;
-            transition: all 0.3s ease-in-out;
+            transition: all 0.5s ease-in-out;
         }
         .Menu{
             width: 20%;
@@ -26,7 +30,18 @@
             justify-content: space-between ;
         }
         .image img{
-            width: 200px;
+            width: 50%;
+        }
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+}
+        .image img:hover{
+            animation: rotation 2s  linear;
         }
         .sign{
             width: 20%;
@@ -35,21 +50,21 @@
         }
         nav a:hover{
             color: rgb(154, 18, 18);
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <nav>
         <div class="Menu">
-            <a href="../menu/Home.php">Home</a> 
-            <a href="../List/List-E.php">List</a>
+            <a href="">Catalog</a>
         </div>
         <div class="image" >
-            <img src="../headerfooter/header/log.png" alt="">
+            <a href=""><img src="lesieur.svg" alt=""></a>
         </div>
         <div class="sign">
-            <a href="../Login-A/Login-A.php">Sign-In</a>
-            <a href="../inscription/inscription.php">Sign-Up</a>
+            <a href="">Sign-In</a>
+            <a href="">Sign-Up</a>
         </div>
     </nav>
 </body>

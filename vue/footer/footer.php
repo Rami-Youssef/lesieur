@@ -67,10 +67,10 @@
             </div>
             <div class="footer-contact">
             <h3>Suivez-nous :</h3>
-            <p> <img src="facebook.png" alt=""></p>
-            <p> <img src="youtube.png" alt=""></p>
-            <p> <img src="instagram.png" alt=""></p>
-            <p></p>
+            <p> <a href="https://web.facebook.com/Lesieur.ma/?_rdc=1&_rdr"><img src="facebook.png" alt=""></a></p>
+            <p> <a href="https://www.youtube.com/@lesieurmaroc5856"><img src="youtube.png" alt=""></a></p>
+            <p> <a href="https://www.instagram.com/lesieurofficielmaroc/?hl=en"><img src="instagram.png" alt=""></a></p>
+            <p><a href="https://www.linkedin.com/company/lesieur-cristal/"><img src="linkedin.png" alt=""></a></p>
             </div>
             <div class="footer-logo">
             <img src="cristal.png" alt="Logo">
