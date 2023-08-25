@@ -53,7 +53,7 @@
     <footer>
         <div>
             <h2>INFORMATION</h2>
-       
+            
         <div class="footer-container">
             <div class="footer-logo">
             <img src="lesieur.svg" alt="Logo">
