@@ -34,9 +34,9 @@
                 transform: rotate(360deg);
             }
 }
-        .image svg:hover{
+        /*.image svg:hover{
             animation: rotation 2s  linear;
-        }
+        }*/
         .sign{
             width: 20%;
             display: flex;
