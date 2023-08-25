@@ -6,8 +6,8 @@
     <title>Document</title>
     <style>
         footer {
-        background-color: #0a0c10;
-        color: #fff;
+        background-color: #8BC34A;
+        color: #333333;
         padding: 60px 0;
         }
         footer h2{
@@ -53,10 +53,28 @@
     <footer>
         <div>
             <h2>INFORMATION</h2>
-            
+
         <div class="footer-container">
             <div class="footer-logo">
-            <img src="lesieur.svg" alt="Logo">
+                <svg
+                    version="1.1"
+                    id="svg1"
+                    width="127.2832"
+                    height="127.27343"
+                    viewBox="0 0 127.2832 127.27343"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:svg="http://www.w3.org/2000/svg">
+                    <defs
+                        id="defs1" />
+                    <g
+                        id="g1"
+                        transform="translate(-124.83565,165.21803)">
+                        <path
+                        id="path9"
+                        style="display:inline;fill:#F5F5F5"
+                        d="m 188.37276,-165.21804 -30.76758,31.10742 30.54102,29.79297 31.11914,-30.35352 z m 34.44726,34.0625 -31.09374,30.33008 30.05468,29.314453 30.33789,-30.675783 z m -68.73046,0.59961 -29.25391,29.57812 29.74024,29.406256 29.99218,-29.253916 z m 34.05664,33.220705 -30.01562,29.279291 30.45117,30.11133 29.68358,-30.01172 z" />
+                    </g>
+                </svg>
             </div>
             <div class="footer-contact">
             <h3>Contactez-nous :</h3>
@@ -73,7 +91,8 @@
             <p><a href="https://www.linkedin.com/company/lesieur-cristal/"><img src="linkedin.png" alt=""></a></p>
             </div>
             <div class="footer-logo">
-            <img src="cristal.png" alt="Logo">
+                
+            <img src="cristal.svg" alt="Logo">
             </div>
         </div>
     </footer>
