@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+            font-family: 'Trebuchet MS', sans-serif;
+        }
         nav{
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            background-color: #1D9A00;
+            background-color: #006547;
             height: 100px;
             opacity: 1;
+            overflow: hidden;
         }
         .slash{
             color: white;
