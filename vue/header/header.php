@@ -48,9 +48,6 @@
                 transform: rotate(360deg);
             }
 }
-        /*.image svg:hover{
-            animation: rotation 2s  linear;
-        }*/
         .sign{
             width: 20%;
             display: flex;
@@ -68,17 +65,17 @@
         content: '';
         position: absolute;
         left: 0;
-        bottom: -5px; /* Adjust this value for space between word and line */
+        bottom: -5px; 
         width: 0;
-        height: 2px; /* Adjust the height of the underline */
+        height: 2px; 
         background-color: white;
-        transition: width 0.3s; /* Smooth transition for width change */
-        opacity: 0; /* Initially hidden */
+        transition: width 0.3s; 
+        opacity: 0;
         }
 
         nav a:hover::after {
-        width: 100%; /* Expand the underline on hover */
-        opacity: 1; /* Show the underline on hover */
+        width: 100%; 
+        opacity: 1; 
         }
 
     </style>
@@ -89,7 +86,7 @@
             <a href="">Catalog</a>
         </div>
         <div class="image" >
-            <a href=""><svg
+            <a href="../main/main.php"><svg
    version="1.1"
    id="svg1"
    width="127.2832"
@@ -111,7 +108,7 @@
         </div>
         <div class="sign">
             <a href="">Sign-In</a>
-            <a href="">Sign-Up</a>
+            <a href="../sign-up/sign-up.php">Sign-Up</a>
         </div>
     </nav>
 </body>
