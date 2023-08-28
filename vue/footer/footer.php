@@ -38,15 +38,17 @@
         margin: 0 10px 10px 0;
         font-size: 16px;
         }
-        .footer-contact p img{
-            width: 50px;
-        }
+
         .footer-container h4{
             color:rgb(190, 19, 19) ;
         }
         .footer-container hr{
             border:1px solid rgb(175, 19, 19) ;
             height: 50px;
+        } 
+        .socials-icons {
+            height: 2em;
+            width: 2em;
         }
     </style>
 </head>
@@ -86,10 +88,10 @@
             </div>
             <div class="footer-contact">
             <h3>Suivez-nous :</h3>
-            <p> <a href="https://web.facebook.com/Lesieur.ma/?_rdc=1&_rdr"><img src="facebook.png" alt=""></a></p>
-            <p> <a href="https://www.youtube.com/@lesieurmaroc5856"><img src="youtube.png" alt=""></a></p>
-            <p> <a href="https://www.instagram.com/lesieurofficielmaroc/?hl=en"><img src="instagram.png" alt=""></a></p>
-            <p><a href="https://www.linkedin.com/company/lesieur-cristal/"><img src="linkedin.png" alt=""></a></p>
+            <p> <a href="https://web.facebook.com/Lesieur.ma/?_rdc=1&_rdr"><img class="socials-icons" src="facebook-icon.svg" alt="facebook-icon"></a></p>
+            <p> <a href="https://www.youtube.com/@lesieurmaroc5856"><img class="socials-icons" src="youtube-icon.svg" alt="youtube-icon"></a></p>
+            <p> <a href="https://www.instagram.com/lesieurofficielmaroc/?hl=en"><img class="socials-icons" src="instagram-icon.svg" alt="instagram-icon"></a></p>
+            <p><a href="https://www.linkedin.com/company/lesieur-cristal/"><img class="socials-icons" src="linkedin-Icon.svg" alt="linkedin-Icon"></a></p>
             </div>
             <div class="footer-logo">
                 
