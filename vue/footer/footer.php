@@ -13,7 +13,7 @@
         footer h2{
         color:white; 
         text-align: center;
-        background-color: #8DAA32;
+        background-color: #13493a;
         }
         .footer-container {
         display: flex;
@@ -29,12 +29,12 @@
         width: auto;
         }
         .footer-contact h3 {
-        color: #8DAA32;
+        color: white;
         margin-bottom: 20px;
         }
 
         .footer-contact p {
-            color: white;
+            color: #e7d9d9;
         margin: 0 10px 10px 0;
         font-size: 16px;
         }

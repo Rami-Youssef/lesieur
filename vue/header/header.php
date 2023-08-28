@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        @font-face {
+            font-family: 'KGHAPPYSolid';
+            src: url(vue\header\header.php);
+        }
         html,body{
             width: 100%;
             height: 100%;
             margin: 0px;
             padding: 0px;
-            overflow-x: hidden; 
-            font-family: 'Trebuchet MS', sans-serif;
+            overflow-x: hidden;
+            
         }
         nav{
             display: flex;
@@ -22,6 +26,7 @@
             height: 100px;
             opacity: 1;
             overflow: hidden;
+            font-family: 'KGHAPPYSolid' !important;
         }
         .slash{
             color: white;
