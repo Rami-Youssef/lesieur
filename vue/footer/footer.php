@@ -6,14 +6,14 @@
     <title>Document</title>
     <style>
         footer {
-        background-color: #8BC34A;
+        background-color: #006547;
         color: #333333;
         padding: 60px 0;
         }
         footer h2{
         color:white; 
         text-align: center;
-        background: rgb(175, 19, 19);
+        background-color: #8DAA32;
         }
         .footer-container {
         display: flex;
@@ -29,11 +29,12 @@
         width: auto;
         }
         .footer-contact h3 {
-        color: rgb(175, 19, 19) ;
+        color: #8DAA32;
         margin-bottom: 20px;
         }
 
         .footer-contact p {
+            color: white;
         margin: 0 10px 10px 0;
         font-size: 16px;
         }
