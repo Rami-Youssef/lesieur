@@ -14,59 +14,41 @@
     top: 5%;
     color: white;
     justify-content: space-evenly;
-    align-items: center; /* Align items vertically in the center */
+    align-items: center; 
     margin: 20px;
   }
 
   article img {
     border: 5px solid black;
     box-shadow: 10px 10px black;
-    max-width: 100%; /* Ensure images fit within their containers */
-    height: auto;
   }
 
   article div {
     width: 60%;
-    padding: 0 20px; /* Add padding for better spacing */
-    text-align: center; /* Center align text */
+    padding: 0 20px; 
+    text-align: center; 
   }
 
   article div h1 {
     color: #006547;
     font-size: 200%;
-    margin-bottom: 10px; /* Add some spacing below the title */
+    margin-bottom: 10px; 
   }
 
   article p {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 160%;
-    margin-top: 10px; /* Add spacing above the paragraph */
+    margin-top: 10px; 
   }
   article img {
     border: 5px solid black;
     box-shadow: 10px 10px black;
-    max-width: 100%; /* Ensure images fit within their containers */
+    max-width: 100%; 
     height: auto;
-    width: auto; /* Reset the width property */
+    width: auto; 
   }
-  @media screen and (max-width:1129px) {
-            /*Main Media*/
-                .one{
-                    font-size: 340%;
-                }
-                .two{
-                    font-size: 150%;
-                }
-               .three{
-                    padding-left: 50px; 
-                    font-size: 300%;  
-                }
-            .four{
-                    font-size: 250%;
-                }
-
-        }
+  
 </style>
 
 </head>
