@@ -26,9 +26,9 @@
         }
 
         footer h2 {
-            color: #13493a;
+            color: white;
             text-align: center;
-            background-color: white;
+            background-color: #13493a;
         }
 
         .footer-container {
