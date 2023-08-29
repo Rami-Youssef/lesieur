@@ -72,31 +72,15 @@ main input:hover{
             <fieldset>
                 <h3>Créer un compte</h3>
                 <div>
-                    <input type="text" name="nom" placeholder="Nom" required>
-                </div>
-                <div>
-                    <input type="text" name="prenom" placeholder="Prénom" required>
-                </div>
-                <div>
-                    <input type="text" name="username" placeholder="Username" required>
-                </div>
-                <div>
                     <input type="email" name="Email" placeholder="Email" required>
                     <div id="emailError"></div>
                 </div>
                 <div>
                     <input type="password" name="mdp" placeholder="mot-de-passe" required>
-
-                </div>
-                <div>
-                    <input type="text" name="conf-password" placeholder="confirmer password" required >
-                </div>
-                <div>
-                    <input type="tel" name="tel" placeholder="Telephone" required>
                 </div>
         
                 <div id="button">
-                    <input type="submit" value="SIGN-UP" class="button">
+                    <input type="submit" value="SIGN-IN" class="button">
                 </div>
             </fieldset>
         </form>
