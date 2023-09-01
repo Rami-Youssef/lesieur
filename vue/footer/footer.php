@@ -8,15 +8,16 @@
     <style>
         @font-face {
             font-family: "KG HAPPY Solid";
-            src: url("fonts/KGHAPPYSolid.eot?") format("eot"), url("fonts/KGHAPPYSolid.woff") format("woff"), url("fonts/KGHAPPYSolid.ttf") format("truetype"), url("fonts/KGHAPPYSolid.svg#KGHAPPYSolid") format("svg");
+            src: url("../footer/fonts/KGHAPPYSolid.eot?") format("eot"), url("../footer/fonts/KGHAPPYSolid.woff") format("woff"), url("../footer/fonts/KGHAPPYSolid.ttf") format("truetype"), url("../footer/fonts/KGHAPPYSolid.svg#KGHAPPYSolid") format("svg");
             font-weight: normal;
             font-style: normal;
         }
+
         body {
             margin: 0px;
-            font-family:"KG HAPPY Solid";
+            font-family: "KG HAPPY Solid";
             font-size: 8px;
-            
+
         }
 
         footer {
@@ -25,11 +26,6 @@
             padding: 60px 0;
         }
 
-        footer h2 {
-            color: white;
-            text-align: center;
-            background-color: #13493a;
-        }
 
         .footer-container {
             display: flex;
@@ -69,13 +65,19 @@
             height: 2em;
             width: 2em;
         }
+
+        footer h1 {
+            color: white;
+            text-align: center;
+            background-color: #13493a;
+        }
     </style>
 </head>
 
 <body>
     <footer>
         <div>
-            <h2>INFORMATION</h2>
+            <h1>INFORMATION</h1>
 
             <div class="footer-container">
                 <div class="footer-logo">
@@ -98,19 +100,20 @@
                 <div class="footer-contact">
                     <h3>Suivez-nous :</h3>
                     <p> <a href="https://web.facebook.com/Lesieur.ma/?_rdc=1&_rdr"><img class="socials-icons"
-                                src="facebook-icon.svg" alt="facebook-icon"></a></p>
+                                src="../footer/facebook-icon.svg" alt="facebook-icon"></a></p>
                     <p> <a href="https://www.youtube.com/@lesieurmaroc5856"><img class="socials-icons"
-                                src="youtube-icon.svg" alt="youtube-icon"></a></p>
+                                src="../footer/youtube-icon.svg" alt="youtube-icon"></a></p>
                     <p> <a href="https://www.instagram.com/lesieurofficielmaroc/?hl=en"><img class="socials-icons"
-                                src="instagram-icon.svg" alt="instagram-icon"></a></p>
+                                src="../footer/instagram-icon.svg" alt="instagram-icon"></a></p>
                     <p><a href="https://www.linkedin.com/company/lesieur-cristal/"><img class="socials-icons"
-                                src="linkedin-Icon.svg" alt="linkedin-Icon"></a></p>
+                                src="../footer/linkedin-Icon.svg" alt="linkedin-Icon"></a></p>
                 </div>
                 <div class="footer-logo">
 
-                    <img src="cristal.svg" alt="Logo">
+                    <img src="../footer/cristal.svg" alt="Logo">
                 </div>
             </div>
     </footer>
+</body>
 
 </html>

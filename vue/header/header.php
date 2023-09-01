@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        @font-face {
-            font-family: 'KGHAPPYSolid';
-            src: url(vue\header\header.php);
+    ..\header
+    @font-face {
+            font-family: "KG HAPPY Solid";
+            src: url("../header/fonts/KGHAPPYSolid.eot?") format("eot"), url("../header/fonts/KGHAPPYSolid.woff") format("woff"), url("../header/fonts/KGHAPPYSolid.ttf") format("truetype"), url("../header/fonts/KGHAPPYSolid.svg#KGHAPPYSolid") format("svg");
+            font-weight: normal;
+            font-style: normal;
         }
         html,body{
             width: 100%;
@@ -26,7 +29,7 @@
             height: 100px;
             opacity: 1;
             overflow: hidden;
-            font-family: 'KGHAPPYSolid' !important;
+            font-family: "KG HAPPY Solid" !important;
         }
         .slash{
             color: white;
