@@ -20,7 +20,6 @@
             align-items: center;
             justify-content: center;
         }
-        .contsilider{}
         
     </style>
 </head>

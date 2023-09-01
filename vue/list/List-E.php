@@ -84,7 +84,7 @@
             <tr>
                 <th>Image</th>
                 <th>produit</th>
-                <th>quantite en stock</th>
+                <th>description</th>
                 <th>Prix</th>
             </tr>
             <?php while ($row = mysqli_fetch_assoc($result)) { ?>

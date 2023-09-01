@@ -15,7 +15,7 @@ $tel = mysqli_real_escape_string($conn, $_POST["tel"]);
 $query = "INSERT INTO users (nom, prenom, username, email, password, tel) VALUES ('$nom', '$prenom', '$username', '$email', '$password', '$tel')";
 
 if (mysqli_query($conn, $query)) {
-    header("Location: ../sign-in/sign-in.php");
+    echo "success";
     exit();
 } else {
     echo "error: " . mysqli_error($conn);

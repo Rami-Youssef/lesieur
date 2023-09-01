@@ -17,7 +17,7 @@
             $_SESSION['id_Membre'] = $row['id'];
 
             if ($row['admin'] == 1) {
-                echo "admin";
+                header("Location: ../../admin/main/main.php");
             } else {
                 echo "user";
             }
