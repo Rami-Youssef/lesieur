@@ -5,15 +5,20 @@
         die("error found" . mysqli_connect_error());
     }
 
-    $nom = $_POST["nom"];
-    $prenom = $_POST["prenom"];
-    $username = $_POST["username"];
-    $email = $_POST["Email"];
-    $password = md5($_POST["password"]); 
-    $conf_password = md5($_POST["conf_password"]);
-    $tel=$_POST["tel"];
-    if($conf_password!==$password){
-        echo "password doesn t match";
-    }
-    $query="insert into users(nom,prenom,username,email,password,tel) vallues($nom,$prenom,$username, $email,$password,$tel)";
-    $result = mysqli_query($conn, $sql);
+    $nom = mysqli_real_escape_string($conn, $_POST["nom"]);
+$prenom = mysqli_real_escape_string($conn, $_POST["prenom"]);
+$username = mysqli_real_escape_string($conn, $_POST["username"]);
+$email = mysqli_real_escape_string($conn, $_POST["Email"]);
+$password = md5($_POST["password"]);
+$tel = mysqli_real_escape_string($conn, $_POST["tel"]);
+
+$query = "INSERT INTO users (nom, prenom, username, email, password, tel) VALUES ('$nom', '$prenom', '$username', '$email', '$password', '$tel')";
+
+if (mysqli_query($conn, $query)) {
+    header("Location: ../sign-in/sign-in.php");
+    exit();
+} else {
+    echo "error: " . mysqli_error($conn);
+}
+
+    

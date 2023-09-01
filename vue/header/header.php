@@ -86,7 +86,7 @@
 <body>
     <nav>
         <div class="Menu">
-            <a href="">Catalog</a>
+            <a href="../list/List-E.php">Catalog</a>
         </div>
         <div class="image" >
             <a href="../main/main.php"><svg

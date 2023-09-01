@@ -1,17 +1,17 @@
 <?php
     include_once('..\header\header.php');
     
-    $conn = mysqli_connect("localhost", "root", "", "LocationVoiture");
+    $conn = mysqli_connect("localhost", "root", "", "lesieur");
 
     
-    $sql = "SELECT * FROM voiture";
+    $sql = "SELECT * FROM produit";
     $result = mysqli_query($conn, $sql);
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Liste des voitures</title>
+    <title>Liste des article</title>
     <style> 
         html,body{
             width: 100%;
@@ -32,6 +32,7 @@
         th, td {
             text-align: left;
             padding: 8px;
+            font-size: 15px;
         }
 
         th {
@@ -82,19 +83,19 @@
         <table>
             <tr>
                 <th>Image</th>
-                <th>Marque</th>
-                <th>Place</th>
+                <th>produit</th>
+                <th>quantite en stock</th>
                 <th>Prix</th>
             </tr>
             <?php while ($row = mysqli_fetch_assoc($result)) { ?>
             <tr>
             <td>
-                <img src="<?php echo $row['image_path']; ?>" alt="<?php echo $row['Marque']; ?>"
+                <img src="<?php echo $row['url_image']; ?>" alt="<?php echo $row['nom']; ?>"
                     onerror="this.src='../images/none.jpg';">
             </td>
-                <td><?php echo $row['Marque']; ?></td>
-                <td><?php echo $row['place']; ?> personne</td>
-                <td>MAD <?php echo $row['prix']; ?> / Jour</td>
+                <td><?php echo $row['nom']; ?></td>
+                <td><?php echo $row['description']; ?></td>
+                <td> <?php echo $row['prix']; ?> MAD</td>
             </tr>
             <?php } ?>
         </table>

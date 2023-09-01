@@ -65,18 +65,20 @@ main input:hover{
 </head>
 <body>
 <?php
+        session_start();
         include '../header/header.php';
     ?>
+    
     <main>
-        <form action="register.php" method="post">
+        <form action="sign-inPHP.php" method="post">
             <fieldset>
-                <h3>Créer un compte</h3>
+                <h3>sign in</h3>
                 <div>
-                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="email" name="email" placeholder="Email" required>
                     <div id="emailError"></div>
                 </div>
                 <div>
-                    <input type="password" name="mdp" placeholder="mot-de-passe" required>
+                    <input type="password" name="password" placeholder="mot-de-passe" required>
                 </div>
         
                 <div id="button">
