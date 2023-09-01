@@ -12,6 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Liste des article</title>
+  
     <style> 
         html,body{
             width: 100%;
@@ -75,8 +76,9 @@
 			justify-content: center;
 			overflow-y: scroll;
 		}
-
+        
     </style>
+    <link rel="icon" href="..\list\square-gray.svg">
 </head>
 <body>
     <div class="tab">

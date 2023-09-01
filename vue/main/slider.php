@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
-
-
   article {
     display: flex;
     position: relative;
@@ -16,28 +13,24 @@
     justify-content: space-evenly;
     align-items: center; 
     margin: 20px;
+    margin-bottom: 0px;
   }
-
   article img {
     border: 5px solid black;
     box-shadow: 10px 10px black;
   }
-
   article div {
     width: 60%;
     padding: 0 20px; 
     text-align: center; 
   }
-
   article div h1 {
     color: #006547;
     font-size: 200%;
     margin-bottom: 10px; 
   }
-
   article p {
     color: black;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 160%;
     margin-top: 10px; 
   }
@@ -48,7 +41,9 @@
     height: auto;
     width: auto; 
   }
-  
+  .four img {
+  margin-bottom: 50px;
+  }
 </style>
 
 </head>

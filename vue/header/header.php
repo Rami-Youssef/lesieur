@@ -87,6 +87,7 @@
     <nav>
         <div class="Menu">
             <a href="../list/List-E.php">Catalog</a>
+            <a href="../about/about.php">Notre Group</a>
         </div>
         <div class="image" >
             <a href="../main/main.php"><svg

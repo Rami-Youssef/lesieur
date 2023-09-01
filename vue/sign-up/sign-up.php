@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign-up</title>
+    <link rel="icon" href="..\main\Lesieur-Square.svg">
     <style>
         main{
     background-image: url("../main/wall.jpg");
