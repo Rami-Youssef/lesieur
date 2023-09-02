@@ -8,7 +8,7 @@
     <style>
         main{
             background-image: url('wall.jpg');
-            background-size: cover;
+            background-size: repeat;
         }
         h1,h2 {
             margin: 0px;
@@ -21,8 +21,18 @@
             align-items: center;
             justify-content: center;
         }
-        
-    </style>
+  
+   body::-webkit-scrollbar-thumb {
+    background-color: #006547;
+
+     
+   }
+        body::-webkit-scrollbar {
+            background-color: whitesmoke;
+           width: 10px;
+        }
+
+            </style>
 </head>
 <body>
     <?php

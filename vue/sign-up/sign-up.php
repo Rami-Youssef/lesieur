@@ -62,6 +62,15 @@ main input:hover{
     opacity: 1;
     text-align: center;
 }
+body::-webkit-scrollbar-thumb {
+    background-color: #006547;
+
+     
+   }
+        body::-webkit-scrollbar {
+            background-color: whitesmoke;
+           width: 10px;
+        }
     </style>
 </head>
 <body>

@@ -10,7 +10,15 @@
             background-image: url('wall.jpg');
             background-size: repeat;
         }
+        body::-webkit-scrollbar-thumb {
+    background-color: #006547;
 
+     
+   }
+        body::-webkit-scrollbar {
+            background-color: whitesmoke;
+           width: 10px;
+        }
     </style>
 </head>
 <body>

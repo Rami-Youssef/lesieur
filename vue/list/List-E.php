@@ -76,9 +76,17 @@
 			justify-content: center;
 			overflow-y: scroll;
 		}
-        
+        body::-webkit-scrollbar-thumb {
+    background-color: #006547;
+
+     
+   }
+        body::-webkit-scrollbar {
+            background-color: whitesmoke;
+           width: 10px;
+        }
     </style>
-    <link rel="icon" href="..\list\square-gray.svg">
+    <link rel="icon" href="..\main\Lesieur-Square.svg">
 </head>
 <body>
     <div class="tab">

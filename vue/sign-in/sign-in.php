@@ -6,6 +6,15 @@
     <title>Sign-in</title>
     <link rel="icon" href="..\main\Lesieur-Square.svg">
     <style>
+          body::-webkit-scrollbar-thumb {
+    background-color: #006547;
+
+     
+   }
+        body::-webkit-scrollbar {
+            background-color: whitesmoke;
+           width: 10px;
+        }
         main{
     background-image: url("../main/wall.jpg");
     background-size: cover;
